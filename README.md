@@ -9,7 +9,7 @@ A governed, hierarchical configuration architecture for Oracle Database 23ai and
 
 ## 🧠 Overview
 
-A **generic, multi-tenant, and flexible configuration framework** built natively for **Oracle Database ** and **Oracle APEX 24.2+**.
+A **generic, multi-tenant, and flexible configuration framework** built natively for **Oracle Database ** and Optional **Oracle APEX 24.2+**.
 
 It enables any SaaS solution (ERP, CRM, HR, Learning, Analytics, etc.) to manage configuration parameters — feature flags, integration endpoints, UI behaviors, or limits — centrally and securely, without code changes or redeployments.
 
@@ -46,15 +46,15 @@ TENANT → APP → ROLE → [USER] → [SESSION]
 
 ## 🧱 Core Features
 
-| Category              | Capability                                        |
-| --------------------- | ------------------------------------------------- |
-| 🏢 Multi-Tenant       | Per-tenant and per-app configuration isolation    |
-| ⚙️ Flexible Hierarchy | Tenant → App → Role → User → Session              |
+| Category               | Capability                                         |
+| ---------------------  | ------------------------------------------------- |
+| 🏢 Multi-Tenant        | Per-tenant and per-app configuration isolation    |
+| ⚙️ Flexible Hierarchy  | Tenant → App → Role → User → Session              |
 | ⚡ High Performance    | Composite indexes + PL/SQL result cache           |
-| 🔐 Secure             | Secret masking + auditing of changes              |
-| 🧩 Modular            | 5 SQL scripts + 1 API package for easy deployment |
-| 🧾 APEX Integration   | Interactive admin console ready                   |
-| 🧮 SaaS-Ready         | Governance, isolation, and extensibility          |
+| 🔐 Secure              | Secret masking + auditing of changes              |
+| 🧩 Modular             | 5 SQL scripts + 1 API package for easy deployment |
+| 🧾 APEX Integration    | Interactive admin console ready                   |
+| 🧮 SaaS-Ready          | Governance, isolation, and extensibility          |
 
 ---
 
@@ -74,7 +74,7 @@ TENANT → APP → ROLE → [USER] → [SESSION]
 ## 🚀 Quick Install
 
 ```bash
-sqlplus aiadmin@yourdb
+sqlplus <dbuser>@<yourdb>
 @sql/01_TENANTS_LOOKUPS.sql
 @sql/02_CFG_PARAMETERS.sql
 @sql/03_CFG_PARAM_UTIL_PKG.sql
@@ -88,7 +88,7 @@ sqlplus aiadmin@yourdb
 ## 🔍 Example Usage
 
 ```sql
-SELECT cfg_param_util_pkg.get_value(
+SELECT cfg_param_util.get_value(
          p_param_name => 'DEFAULT_THEME',
          p_tenant_id  => 'MY_SAAS',
          p_app_id     => 100
