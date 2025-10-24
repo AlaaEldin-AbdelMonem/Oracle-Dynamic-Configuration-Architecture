@@ -1,0 +1,10 @@
+# Ignore build and IDE files
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar.gz
+.vscode/
+.idea/
+.DS_Store
+.history
