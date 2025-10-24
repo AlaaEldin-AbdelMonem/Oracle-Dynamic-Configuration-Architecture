@@ -2,7 +2,7 @@
 
 ## v1.0.0
 - Generic configuration hierarchy (Tenant → App → Role → [User] → [Session])
-- Unified retrieval package (CFG_PARAM_UTIL_PKG)
+- Unified retrieval package (CFG_PARAM_UTIL)
 - Added audit & masking triggers
 - Added APEX admin views
 - Example seed data for tenant MY_SAAS
