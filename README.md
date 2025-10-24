@@ -1,6 +1,9 @@
-# Oracle Flexible Configuration Framework for SaaS Products
+# Oracle Dynamic Configuration Architecture
 
-**Repository:** oracle-flex-config-saas-framework
+A governed, hierarchical configuration architecture for Oracle Database 23ai and APEX 24.2+, enabling dynamic runtime configuration across tenants, apps, roles, users, and sessions — without redeployment.
+
+**Repository:** Oracle-Dynamic-Configuration-Architecture
+
 
 ---
 
