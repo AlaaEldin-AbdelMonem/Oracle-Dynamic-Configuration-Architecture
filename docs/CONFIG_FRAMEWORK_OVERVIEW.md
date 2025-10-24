@@ -13,7 +13,7 @@ Provide SaaS vendors and Oracle-based ISVs a governed, flexible configuration en
 ## Architecture Components
 Tables: TENANTS, CFG_PARAMETERS, CFG_PARAM_OVERRIDES
 Lookups: LKP_PARAM_*
-API: CFG_PARAM_UTIL_PKG
+API: CFG_PARAM_UTIL
 Audit: CFG_PARAM_AUDIT
 UI: CFG_PARAM_EFFECTIVE_V (APEX)
 
