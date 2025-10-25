@@ -6,10 +6,10 @@ Provide SaaS vendors and Oracle-based ISVs a governed, flexible configuration en
 
 ### 🧭 High-Level Overview
 
-![High Level Architecture](docs/Architecture-Overview–High-Level.png)
+![High Level Architecture](/docs/Architecture-Overview–High-Level.png)
 
 ### 🧱 Logical Data Model
-![Logical Data Model](docs/Logical-Data-Model.png)
+![Logical Data Model](/docs/Logical-data-Model.png)
 
 
 ## Business Value
