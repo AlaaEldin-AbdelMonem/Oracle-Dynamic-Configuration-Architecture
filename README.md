@@ -4,12 +4,16 @@ A governed, hierarchical configuration architecture for Oracle Database 23ai and
 
 **Repository:** Oracle-Dynamic-Configuration-Architecture
 
+ 
+### 🧭Architecture High-Level Overview
+
+![High Level Architecture](/docs/Architecture-Overview–High-Level.png)
 
 ---
 
 ## 🧠 Overview
 
-A **generic, multi-tenant, and flexible configuration framework** built natively for **Oracle Database ** and Optional **Oracle APEX 24.2+**.
+A **generic, multi-tenant, and flexible configuration framework** built natively for **Oracle Database **.
 
 It enables any SaaS solution (ERP, CRM, HR, Learning, Analytics, etc.) to manage configuration parameters — feature flags, integration endpoints, UI behaviors, or limits — centrally and securely, without code changes or redeployments.
 
