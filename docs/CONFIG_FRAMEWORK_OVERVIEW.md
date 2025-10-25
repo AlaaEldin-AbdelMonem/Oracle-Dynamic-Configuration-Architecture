@@ -2,6 +2,15 @@
 
 ## Vision
 Provide SaaS vendors and Oracle-based ISVs a governed, flexible configuration engine that allows each tenant or role to customize system behavior without code modifications.
+## 📊 Architecture
+
+### 🧭 High-Level Overview
+
+![High Level Architecture](docs/Architecture-Overview–High-Level.png)
+
+### 🧱 Logical Data Model
+![Logical Data Model](docs/Logical-Data-Model.png)
+
 
 ## Business Value
 - Flexibility: Adjust settings per tenant or role dynamically
